@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://pre00.deviantart.net/b66a/th/pre/i/2011/317/b/b/border_paper_9_by_spidergypsy-d4g3i0v.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin-left: 105px;
+  margin-top: 105px;
+  padding-right: 40px;
+}
+
+.salutation {
+  margin-left: 1000px;
+}
