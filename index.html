@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,47 +6,39 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-
-    <title>Letters</title>
+    <title>Letters to You</title>
   </head>
-
   <body>
     <div class="container">
-      <p>Dear You,</p>
-        <p>
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-      </p>
+      <h1>Fill in the blanks to write your letter!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">Another name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
 
-      <p>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          <button type="submit" class="btn">Show me the letter!</button>
+        </form>
+      </div>
+
+      <div id="letter">
+        <h1>A Tragic Tale Told Through Letters</h1>
+        <p>
+          Dear <span class="person1"></span>,
         </p>
 
         <p>
-        Proin commodo ligula ut erat volutpat pretium. Ut mauris arcu, imperdiet sit amet mi sed, tincidunt laoreet orci. Phasellus est orci, lacinia at tempus eu, ornare vitae justo. Maecenas pellentesque posuere dui ut pellentesque. Integer ultricies lacus eu lorem lacinia, vel ornare dolor auctor. Integer pellentesque mauris eu mauris accumsan, et viverra tellus fringilla. Phasellus convallis tellus leo, at imperdiet arcu ultricies non. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas at venenatis erat.
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
         </p>
 
-        <p>
-        Proin pellentesque nunc a sapien molestie, sit amet varius ex finibus. Aliquam efficitur pretium dolor in rhoncus. Etiam vulputate ligula odio, vitae consectetur magna interdum eu. Nulla ac elementum ligula, nec dictum velit. Maecenas vel gravida nisi, a posuere diam. In venenatis venenatis finibus. Aliquam malesuada metus fermentum blandit malesuada. Donec tempor dapibus justo, vel euismod nibh dignissim non. Cras pellentesque, diam id porta pretium, diam massa scelerisque mi, id pharetra orci diam sed odio. Ut ut elit et felis porta dapibus non at quam. Maecenas elementum mi vitae tincidunt venenatis. Donec augue augue, pretium ut molestie id, feugiat tincidunt eros.
-        </p>
-
-        <p>
-        Donec ut commodo lacus. Ut quis mattis leo. Suspendisse ut ipsum in lorem imperdiet lacinia non vitae neque. In nec odio orci. Fusce non neque commodo, faucibus odio nec, pulvinar lorem. Vestibulum laoreet id nulla sed tristique. Donec fringilla dui at tortor aliquet placerat. Quisque ut enim pulvinar, mattis velit nec, dapibus risus.
-        </p>
-
-        <p>
-        Morbi lorem nisi, egestas non elit gravida, bibendum ultrices nunc. Curabitur auctor erat sit amet ex euismod, laoreet vestibulum ante placerat. Morbi turpis urna, elementum ac orci quis, mollis sollicitudin orci. Nam sed sapien elit. Nulla consectetur scelerisque justo, non suscipit metus pulvinar et. Aenean vel dolor sem. Cras eu luctus magna. Phasellus sed orci blandit, interdum urna vitae, consectetur leo. Nam felis urna, molestie in augue eget, porttitor feugiat enim. Maecenas quis semper velit, et ultricies felis. Aliquam pretium ligula at nisi condimentum pulvinar. Nunc hendrerit a lorem vitae lobortis. Mauris eleifend at neque in ultrices. Phasellus at nunc convallis, vestibulum dolor sed, eleifend arcu.
-        </p>
-
-        <p>
-        Vivamus in malesuada mi. Integer ornare convallis mi non tempus. Mauris vitae fringilla lacus. Aenean vulputate, dolor in feugiat sollicitudin, tortor ligula pellentesque leo, quis tincidunt tortor mauris sit amet ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent non iaculis sem. Nullam id nibh eu risus interdum rhoncus. Integer at fermentum ante, vitae fringilla massa. Mauris vulputate nibh quis nibh fringilla vulputate. Proin ullamcorper fermentum massa. Suspendisse varius nunc ut sollicitudin rutrum. Mauris sed luctus lorem. Sed feugiat accumsan dignissim. Nullam vel nulla sed enim consectetur imperdiet. Curabitur accumsan maximus maximus. Phasellus posuere turpis ac dolor accumsan, pretium convallis felis vulputate.
-        </p>
-
-        <p>
-        Fusce venenatis pharetra libero, at dictum nisl eleifend eget. Nulla felis augue, egestas nec libero sit amet, malesuada vestibulum augue. Integer porta, mauris id sollicitudin convallis, tortor magna eleifend mauris, vitae sodales libero quam vitae lectus. Curabitur egestas libero id varius vestibulum. Ut lacinia elit ac enim pharetra, ac mattis nunc finibus. Nullam consectetur luctus ante, volutpat lacinia elit vehicula ac. Sed egestas nisi vitae sapien pellentesque tempor. Integer quis dolor eget diam scelerisque varius a ac urna. Sed felis sapien, bibendum eu bibendum sit amet, blandit nec dui. Maecenas vehicula tincidunt lacinia. Sed a luctus orci. Phasellus quis consequat elit, at porttitor purus. Curabitur pretium arcu non ornare aliquet.
-      </p>
-
-      <p span class="salutation">From Me.</p>
-
+        <p id="salutation"> From <span class="person2"></span></p>
+  </p>
+      </div>
     </div>
   </body>
 </html>

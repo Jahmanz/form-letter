@@ -1,3 +1,4 @@
+
 body {
   background-image: url("https://pre00.deviantart.net/b66a/th/pre/i/2011/317/b/b/border_paper_9_by_spidergypsy-d4g3i0v.jpg");
   background-size: cover;
@@ -7,8 +8,20 @@ body {
   margin-left: 105px;
   margin-top: 105px;
   padding-right: 40px;
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: bold;
 }
 
-.salutation {
-  margin-left: 1000px;
+
+#letter {
+  display: none;
+}
+
+.person2 {
+  margin-left: 10px;
+}
+
+#salutation {
+  margin-left: 80%;
 }
